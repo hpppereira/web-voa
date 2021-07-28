@@ -1,0 +1,101 @@
+{% extends "voa/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<!-- linka funcoes do leaflet -->
+
+
+<section id="one" class="wrapper style2">
+    <div class="inner">
+        <header class="align-center">
+            <h1 style="font-size: 34px;"><b>Equipamentos</b></h1>
+        </header>
+        <br>
+        <div class="grid-style">
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="{% static 'voa/images/adcp.jpeg' %}" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h3>Correntômetro - Aquadopp 600 kHz</h3>
+                        </header>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="{% static 'voa/images/pinkdot.jpg' %}" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <!-- <p>mattis elementum sapien pretium tellus</p> -->
+                            <h3>Boia Oceanográfica - PinkDot</h3>
+                        </header>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                    <img src="{% static 'voa/images/hidrofone.jpeg' %}" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <!-- <p>maecenas sapien feugiat ex purus</p> -->
+                            <h3>Hidrofone - D/70/H Neptune Sonars</h3>
+                        </header>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                <img src="{% static 'voa/images/rbr.jpeg' %}" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h3>Sensor de Pressão - RBR</h3>
+                        </header>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                    <img src="{% static 'voa/images/davis.jpg' %}" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h3>Estação Meteorológica - Davis Vantage Vue</h3>
+                        </header>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                    <img src="{% static 'voa/images/sonda.jpg' %}" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h3>Sonda Multiparâmetros (Tº, PH, TDS, EC)</h3>
+                        </header>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+{% endblock %}

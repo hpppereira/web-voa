@@ -1,0 +1,124 @@
+{% extends "voa/base.html" %}
+{% load static %}
+{% block content %}
+<section class="banner full">
+    <article>
+    <img src="{% static 'voa/images/veleiro_voa.jpg' %}" />
+        <div class="inner">
+            <header>
+                <h2>VOA</h2>
+                <h3>Veleiro Oceanográfico Arqueiro</h3>
+            </header>
+        </div>
+    </article>
+</section>
+<section id="one" class="wrapper style2">
+    <div class="inner">
+        <header class="align-center">
+            <p class="special">O OBJETIVO DO VELEIRO OCEANOGRÁFICO ARQUEIRO (VOA) É CONTRIBUIR PARA O CONHECIMENTO DOS OCEANOS SERVINDO COMO UMA PLATAFORMA PARA COLETA E ANÁLISE DE DADOS AMBIENTAIS.</p>
+            <h2><a href="/voa/veleiro">Veleiro</a> | <a href="/voa/equipamentos">Equipamentos</a> | <a href="/voa/projetos">Projetos</a> | <a href="/voa/servicos">Serviços</a> | <a href="/voa/expedicoes">Expedições</a> | <a href="/voa/dados">Dados</a></h2>
+        </header>
+        <br>
+        <div class="grid-style">
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <a href="/voa/veleiro"><img src="{% static 'voa/images/lonorable.jpg' %}"/></a>
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h2><a href="/voa/veleiro">Veleiro</a></h2>
+                        </header>
+                        <p>Veleiro Sirius 27', projeto Maurilo Queiroz. Embarcação equipada com sistema Spotter, GPS, ecobatímetro e chartplotter com AIS. Bote de apoio com motor de 5 HP, caiaque e stand up.</p>
+                        <footer class="align-center">
+                            <a href="/voa/veleiro" class="button alt">Saiba mais</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <a href="/voa/equipamentos"><img src="{% static 'voa/images/boinha.jpg' %}"/></a>
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h2><a href="/voa/equipamentos">Equipamentos</a></h2>
+                        </header>
+                        <p>Perfilador acústico de correntes (ADCP), hidrofone, CTD, rede de plâncton e sonda multiparâmetro são exemplos de equipamentos que o VOA têm à disposição para coleta e análise de dados ambientais.</p>
+                        <footer class="align-center">
+                            <a href="/voa/equipamentos" class="button alt">Saiba mais</a>
+                        </footer>                
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <a href="/voa/projetos"><img src="{% static 'voa/images/onu.png' %}"/></a>
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h2><a href="/voa/projetos">Projetos</a></h2>
+                        </header>
+                        <p>O VOA desenvolve e participa de projetos de pesquisa nas 4 áreas da oceanografia, buscando integrar a ciência, meio ambiente e sociedade.</p>
+                        <footer class="align-center">
+                            <a href="/voa/projetos" class="button alt">Saiba mais</a>
+                        </footer>                
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <a href="/voa/servicos"><img src="{% static 'voa/images/servicos.jpg' %}"/></a>
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h2><a href="/voa/servicos">Serviços</a></h2>
+                        </header>
+                        <p>Com uma equipe de oceanógrafos, o VOA possibilita a instalação e manutenção de equipamentos, análise dos dados e elaboração de relatórios técnicos.</p>
+                        <footer class="align-center">
+                            <a href="/voa/servicos" class="button alt">Saiba mais</a>
+                        </footer>                
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <a href="/voa/expedicoes"><img src="{% static 'voa/images/challenger.jpg' %}"/></a>
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h2><a href="/voa/expedicoes">Expedições</a></h2>
+                        </header>
+                        <p>Um dos objetivos do VOA é a realização de expedições oceanográficas para contribuir com os diversos interessados no conhecimento do mar da costa brasileira.</p>
+                        <footer class="align-center">
+                            <a href="/voa/expedicoes" class="button alt">Saiba mais</a>
+                        </footer>                
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <a href="/voa/dados"><img src="{% static 'voa/images/pleds.png' %}"/></a>
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h2><a href="/voa/expedicoes">Dados</a></h2>
+                        </header>
+                        <p>Os dados de domínio público, coletados nas campanhas de medição com o VOA, são mantidos em um banco de dados de livre acesso à comunidade.</p>
+                        <footer class="align-center">
+                            <a href="/voa/dados" class="button alt">Saiba mais</a>
+                        </footer>                
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}
